@@ -1,0 +1,7 @@
+/project-directory
+│
+├── index.html         // Home Page
+├── about.html         // About Us Page
+├── trips.html         // Trips Page
+├── contact.html       // Contact Us Page
+└── styles.css         // CSS Stylesheet
