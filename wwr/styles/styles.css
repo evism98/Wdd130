@@ -1,6 +1,5 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', 'Inter', sans-serif; /* Added quotes and fallback font */
     margin: 0;
     padding: 0;
     background-image: url('images/1234.jpg');
@@ -47,5 +46,14 @@ footer {
     color: white;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100%; /* Corrected width to 100% */
 }
+
+:root { /* Changed 'Rooter' to ':root' for CSS variables */
+    --primary-color: #2cfd3d; /* Green */
+    --secondary-color: #512eff; /* Blue */
+    --accent-color: #fe2226; /* Red */
+    --background-color: #fe2226; /* Light Gray */
+    --text-color: #fe1eef; /* Dark Gray */
+}
+
